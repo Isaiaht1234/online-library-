@@ -102,10 +102,11 @@ text-decoration: underline;
     z-index: 100;
     display: flex;
     justify-content: center;
+    visibility: hidden;
     align-items: center;
     transition: all 300ms ease;
     opacity: 0;
-    visibility: hidden;
+    transform: translate(100%);
 }
 
 .menu--open .menu__bacdrop {
@@ -263,7 +264,6 @@ HIGHLIGHTS
 
 .highlight__wrapper {
 display: flex;
-flex-wrap: wrap;
 }
 
 .highlight {
@@ -399,7 +399,7 @@ footer {
 }
 
 /* SMALL PHONES, TABLETS, LARGE SMARTPHONES */
-@media (max-width: 768px) {
+@media (max-width: 760px) {
     .header__description {
         padding: 0 24px
     }
